@@ -8,12 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e04fba6142.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/logo.css">
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/sobre-mim.css">
+    <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/contato.css">
+
     <title>Portfolio</title>
 </head>
 <body>
@@ -37,8 +41,13 @@
                 </li>
             </ul>
         </nav>
+        
     </header>
     <main>
+        <a href="#" class="back" title="voltar">
+            <i class="fas fa-arrow-to-top"></i>
+        </a>
+
         <section class="home" id="home">
             <img src="./img/perfil.png" alt="perfil">
                 <div>
@@ -84,10 +93,80 @@
                 </div>
             </div>
         </section>
-        <section class="projetos" id="projetos"></section>
-        <section class="contatos" id="contatos"></section>
+
+        <section class="projetos" id="projetos">
+            <h2 class="section-title">Projetos</h2>
+            <div class="card-container">
+                <a href="https://d4kii.github.io/studio-ghibli/" class="card">
+                    <img  src="./img/ghibli.png" alt="" class="card-img">
+                </a>
+                <a href="https://d4kii.github.io/headphone-purple/" class="card">
+                    <img src="./img/razerphone.png" alt="" class="card-img">
+                </a>
+                <a href="https://d4kii.github.io/landing-page-pikachu/" class="card">
+                    <img src="./img/pikachu.png" alt="" class="card-img">
+                </a>
+            </div>
+        </section>
+
+        <section class="contatos" id="contatos">
+            <h2 class="section-title">Contato</h2>
+            <ul class="contato-container">
+                <li>
+                    <h3 class="contato-title">Contato</h3>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(11) 4618-5645</span>
+                    </div>
+                </li>
+                <li> <div class="contato-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>danielalinodasilvaoliveira@gmail.com</span>
+                    </div>
+                </li>    
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rua Elton Silva, 905</span>
+                    </div>
+                </li>
+            </ul>
+            <ul class="social-container">
+                <li class="social-item">
+                    <i class="fab fa-instagram"></i>
+                </li>
+                <li class="social-item">
+                    <i class="fab fa-twitter"></i>
+                </li>
+                <li class="social-item">
+                    <i class="fab fa-linkedin"></i>
+                </li>
+                <li class="social-item">
+                    <i class="fab fa-github"></i>
+                </li>
+            </ul>
+            <ul class="link-container">
+                <li>
+                    <h3 class="link-title">Links</h3>
+                </li>
+                <li>
+                    <a href="#home">Início</a>
+                </li>
+                <li>
+                    <a href="#sobre-mim">Sobre Mim</a>
+                </li>
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contatos">Contato</a>
+                </li>
+            </ul>
+        </section>
         
     </main>
-    <footer>FOOTER</footer>
+    <footer>Todos os Direitos Reservados | 2022 | Daniela Lino</footer>
 </body>
 </html>
