@@ -8,7 +8,6 @@
     grid-template-rows: auto 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 64px;
-    width: 100%;
 
 }
 .section-title{
@@ -37,6 +36,9 @@
 }
 .skills{
     grid-area: skills;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
 .skills__title{
     font-size: 3rem;
@@ -62,4 +64,30 @@
 }
 .skills__icon span{
     font-size: 1rem;;
+}
+
+@media (max-width: 960px) {
+    .sobre-mim{
+        display: flex;
+        flex-direction: column;
+        height: 75rem;
+    }
+    .skills__icons{
+        gap: 60px;
+       
+    }
+    .description__text, .description__title {
+        margin-left: 50px;
+
+    }
+
+    .skills__icons{
+        margin-left: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .skills__title{
+        margin-left: 50px;
+    }
+
 }

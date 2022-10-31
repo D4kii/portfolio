@@ -47,3 +47,18 @@
 .social-item:hover{
     color: var(--primary-color);
 }
+@media (max-width: 960px) {
+    .contatos{
+        max-width: 700px;
+    }
+    .social-container{
+        display: flex;
+        place-self: end center;
+        margin-bottom: 7rem;
+        gap: 1rem;
+    }
+
+@media (max-width: 640px) {
+
+}    
+}
