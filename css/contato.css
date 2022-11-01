@@ -57,8 +57,26 @@
         margin-bottom: 7rem;
         gap: 1rem;
     }
-
-@media (max-width: 640px) {
-
-}    
 }
+@media (max-width: 640px) {
+    .contatos{
+        max-width: 400px;
+        width: 100%;
+        display: grid;
+        grid-template-areas: 
+        "title"
+        "contato"
+        " link"
+        " social";
+        grid-template-rows: auto 1fr;
+        align-items: center;
+        gap: 2rem;
+    }
+    .link-container{
+        align-items: center;
+    }
+    .contato-container{
+        align-items: center
+        ;
+    }
+}    

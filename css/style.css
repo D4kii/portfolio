@@ -71,4 +71,7 @@ footer{
         max-width: 450px;
         width: 100%;
     }
+    footer{
+        display: none;
+    }
 }

@@ -77,8 +77,8 @@
        
     }
     .description__text, .description__title {
-        margin-left: 50px;
-
+        margin-left: 3.2rem;
+        margin-right: 3rem;
     }
 
     .skills__icons{
@@ -89,5 +89,19 @@
     .skills__title{
         margin-left: 50px;
     }
+
+}
+@media(max-width: 940px){
+    .sobre-mim{
+        height: 90rem;
+    }
+    .skills__icons{
+        gap: 30px;
+        margin-left: 2rem;
+    }
+    .skills__title{
+        margin-left: 3.2rem;
+    }
+   
 
 }
